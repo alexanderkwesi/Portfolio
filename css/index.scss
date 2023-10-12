@@ -21,6 +21,7 @@ $colors:(
  color_purple_backgroun_color:rgb(153, 51, 153)
 
 );
+$new_color_green:rgb(51, 153, 102);
 $color:rgb(203,211,200);
 $keycolor:rgb(203,211,200);
 @function color($color-name)
@@ -906,9 +907,9 @@ html,body{
 
 	main{
 		width:100%;
-		// background-color: opacify($color, 1);
-		// background-color: transparentize($color, 0.9);
-		// background-color:color(plain-white);
+		background-color: opacify($new_color_green, 1);
+		background-color: transparentize($new_color_green, 0.9);
+		background-color:color(plain-white);
 		box-sizing: border-box;
 		position:absolute;
 		z-index:15;
