@@ -5195,13 +5195,22 @@ html, body {
     width: 100%;
     box-sizing: border-box;
     position: absolute;
-    z-index: 15;
+    z-index: 1;
     top: 100px;
     background-color:#339966;
     background: rgb(98,96,144);
     background: linear-gradient(90deg, rgba(98,96,144,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 18%);    
     margin: 0 auto 0 auto; }
-    @media (max-width: 1339px) and (min-width: 960px) {
+html main, body main_two{
+  width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+top: 200px;
+background: rgb(98,96,144);
+background: linear-gradient(90deg, rgba(98,96,144,1) 0%, rgba(121,9,112,1) 100%, rgba(0,212,255,1) 100%);
+margin: 0 auto 0 auto;}
+    @media (max-width: 1139px) and (min-width: 960px) {
       html main, body main {
         display: none; } }
     @media (max-width: 960px) and (min-width: 640px) {
@@ -5356,7 +5365,7 @@ html, body {
       width: 75%;
       height: 150px;
       box-shadow: rgba(0, 0, 0, 0.23) 0px 0px 4px 0px inset; }
-      @media (max-width: 1339px) and (min-width: 960px) {
+      @media (max-width: 1139px) and (min-width: 960px) {
         html section #aboutme, body section #aboutme {
           width: 92%;
           height: 150px;
@@ -5414,7 +5423,7 @@ html, body {
         font-size: 35px;
         font-weight: 900;
         color: black; }
-        @media (max-width: 1339px) and (min-width: 960px) {
+        @media (max-width: 1139px) and (min-width: 960px) {
           html section #aboutme span, body section #aboutme span {
             position: absolute;
             left: 50px;
@@ -5436,7 +5445,7 @@ html, body {
       background-color: darkslategrey;
       height: 150px;
       margin: -70px auto auto auto; }
-      @media (max-width: 1339px) and (min-width: 960px) {
+      @media (max-width: 1139px) and (min-width: 960px) {
         html section .spacespan, body section .spacespan {
           position: absolute;
           left: 870px;
@@ -5535,7 +5544,7 @@ html, body {
           padding: 30px 30px 30px 30px; } }
       html section .articleaboutme div:nth-of-type(1), body section .articleaboutme div:nth-of-type(1) {
         display: none; }
-        @media (max-width: 1339px) and (min-width: 960px) {
+        @media (max-width: 1139px) and (min-width: 960px) {
           html section .articleaboutme div:nth-of-type(1), body section .articleaboutme div:nth-of-type(1) {
             display: none; } }
         @media (max-width: 960px) and (min-width: 640px) {
