@@ -5201,7 +5201,6 @@ html, body {
     opacity:1;
     background: rgb(98,96,144);
     background: linear-gradient(90deg, rgba(98,96,144,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 18%); 
-    background-clip:text;
     margin: 0 auto 0 auto; }
 
     @media (max-width: 1139px) and (min-width: 960px) {
