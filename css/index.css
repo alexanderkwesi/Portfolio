@@ -5201,7 +5201,7 @@ html, body {
     background: rgb(98,96,144);
     background: linear-gradient(90deg, rgba(98,96,144,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 18%);    
     margin: 0 auto 0 auto; }
-html main_two, body main_two{
+html main, body main main_two{
   width: 100%;
     box-sizing: border-box;
     position: absolute;
