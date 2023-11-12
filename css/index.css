@@ -5206,7 +5206,8 @@ html, body {
     box-sizing: border-box;
     position: absolute;
     z-index: 1;
-top: 250px;
+top: 170px;
+  height:150px;
 background: rgb(98,96,144);
 background: linear-gradient(90deg, rgba(98,96,144,1) 0%, rgba(121,9,112,1) 100%, rgba(0,212,255,1) 100%);
 margin: 0 auto 0 auto;}
