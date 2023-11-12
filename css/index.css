@@ -5199,7 +5199,7 @@ html, body {
     top: 100px;
     background-color:#339966;
     background: rgb(98,96,144);
-    opacity:2;
+    opacity:0.2;
     background: linear-gradient(90deg, rgba(98,96,144,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 18%);    
     margin: 0 auto 0 auto; }
 
